@@ -12,7 +12,7 @@ def mobile_money(account_balance=0):
         else:
             return 'Insufficient account balance'
 
-    # Check the validity of inputted number
+    # Check the validity of inputted number and confirm
     def number_len(number):
         if len(number) != 10:
             print('Invalid number')
